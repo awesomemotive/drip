@@ -1,0 +1,27 @@
+{
+  "name": "awesomemotive/drip",
+  "description": "An API wrapper for GetDrip",
+  "require": {
+    "php": ">=5.3.3",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "~6.0",
+    "league/oauth2-client": "^0.12.1"
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "J. Aaron Eaton",
+      "email": "aaron@awesomemotive.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AwesomeMotive\\Drip\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "codeception/codeception": "^2.1",
+    "codeception/aspect-mock": "^0.5.3"
+  }
+}
