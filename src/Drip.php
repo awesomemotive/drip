@@ -2,8 +2,6 @@
 
 namespace AwesomeMotive\Drip;
 
-require_once __DIR__ . '/../vendor/autoload.php';
-
 use AwesomeMotive\Drip\Exception\ServiceNotFoundException;
 use AwesomeMotive\Drip\Exception\ValidationExceptionHandler;
 use AwesomeMotive\Drip\OAuth2\Provider;
