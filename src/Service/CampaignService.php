@@ -6,11 +6,14 @@ class CampaignService extends AbstractService {
 
 	/**
 	 * Returns all campaigns
+	 *
+	 * @param int $page
+	 *
 	 * @return \stdClass
 	 */
-	public function all() {
+	public function all( $page = 1 ) {
 
-		return $this->client->request( 'campaigns' );
+		return $this->client->request( 'campaigns', 'get', ['page' => $page] );
 
 	}
 
